@@ -1,0 +1,166 @@
+# ─────────────────────────────────────────────────────────────
+#  COMANDOS DE PRUEBA — Motor de Base de Datos AVL
+#  Copiar y pegar en la terminal despues de ejecutar:
+#    python main.py
+# ─────────────────────────────────────────────────────────────
+
+
+# ── 1. CREAR TABLAS ───────────────────────────────────────────
+# Espera: [OK] Tabla 'estudiantes' creada.
+CREATE TABLE estudiantes id:int nombre:text edad:int carrera:text
+
+# Espera: [OK] Tabla 'cursos' creada.
+CREATE TABLE cursos id:int nombre:text creditos:int profesor:text
+
+# Espera: lista con 2 tablas
+SHOW TABLES
+
+
+# ── 2. INSERT ─────────────────────────────────────────────────
+# Espera: [OK] Registro insertado con ID: 1  + AVL comparaciones: 0
+INSERT estudiantes id=1 nombre=Ana edad=20 carrera=Sistemas
+
+# Espera: ID 2, comparaciones: 1
+INSERT estudiantes id=2 nombre=Luis edad=22 carrera=Industrial
+
+# Espera: ID 3
+INSERT estudiantes id=3 nombre=Maria edad=19 carrera=Sistemas
+
+# Espera: ID 4
+INSERT estudiantes id=4 nombre=Carlos edad=21 carrera=Civil
+
+# Espera: ID 5
+INSERT estudiantes id=5 nombre=Sofia edad=23 carrera=Industrial
+
+# Espera: error — PK duplicada
+INSERT estudiantes id=1 nombre=Otro edad=20 carrera=Civil
+
+# Espera: error — tipo incorrecto (edad debe ser int)
+INSERT estudiantes id=6 nombre=Test edad=veinte carrera=Sistemas
+
+# Cursos
+INSERT cursos id=1 nombre=Calculo creditos=4 profesor=Garcia
+INSERT cursos id=2 nombre=Fisica creditos=3 profesor=Lopez
+INSERT cursos id=3 nombre=Programacion creditos=3 profesor=Torres
+
+
+# ── 3. SELECT — todas las formas ─────────────────────────────
+# Espera: 5 registros
+SELECT estudiantes
+
+# Espera: 1 registro — Ana — con info AVL (camino recorrido)
+SELECT estudiantes WHERE id=1
+
+# Espera: 0 resultados
+SELECT estudiantes WHERE id=99
+
+# Espera: 3 registros (id 2, 3, 4) — busqueda por rango AVL O(log n + k)
+SELECT estudiantes WHERE id>=2 AND id<=4
+
+# Espera: 2 registros (Ana y Maria)
+SELECT estudiantes WHERE carrera=Sistemas
+
+# Espera: 3 registros (id 1, 2, 5) — rango por un campo no PK
+SELECT estudiantes WHERE edad>=20 AND edad<=22
+
+
+# ── 4. UPDATE ─────────────────────────────────────────────────
+# Espera: 1 registro actualizado
+UPDATE estudiantes SET edad=21 WHERE id=1
+
+# Verificar — Espera: Ana con edad=21
+SELECT estudiantes WHERE id=1
+
+# Espera: 2 registros actualizados (id 2 y 5, carrera=Industrial)
+UPDATE estudiantes SET carrera=Mecatronica WHERE carrera=Industrial
+
+# Verificar
+SELECT estudiantes
+
+# Espera: error — no se puede cambiar la PK
+UPDATE estudiantes SET id=99 WHERE id=1
+
+
+# ── 5. DELETE ─────────────────────────────────────────────────
+# Espera: [OK] Registro eliminado + recorrido AVL
+DELETE estudiantes WHERE id=3
+
+# Verificar — Espera: 4 registros, id=3 no aparece
+SELECT estudiantes
+
+# Espera: error — condicion sin resultados
+DELETE estudiantes WHERE id=99
+
+# Ver el arbol despues del delete — nota como se rebalanceo
+SHOW TREE estudiantes
+
+
+# ── 6. AVL VISUAL ─────────────────────────────────────────────
+# Espera: arbol dibujado con /-- y \--
+SHOW TREE estudiantes
+
+# Espera: inorden en orden ascendente [1, 2, 4, 5]
+SHOW TRAVERSAL estudiantes
+
+# Espera: total nodos=4, altura, balance, eficiencia O(log n)
+SHOW STATS estudiantes
+
+# Lo mismo para cursos
+SHOW TREE cursos
+SHOW TRAVERSAL cursos
+SHOW STATS cursos
+
+
+# ── 7. PERSISTENCIA ───────────────────────────────────────────
+# Escribir SALIR para cerrar, luego volver a abrir con python main.py
+# y ejecutar los siguientes comandos para verificar que los datos
+# y el arbol se reconstruyen correctamente desde disco.
+
+SALIR
+
+# --- Abrir de nuevo: python repl.py ---
+
+# Espera: las mismas tablas que antes
+SHOW TABLES
+
+# Espera: los 4 registros que quedaron (sin el id=3 que se borro)
+SELECT estudiantes
+
+# Espera: inorden [1, 2, 4, 5] — el arbol se reconstruyo igual
+SHOW TRAVERSAL estudiantes
+
+# Espera: el registro de Ana actualizado (edad=21)
+SELECT estudiantes WHERE id=1
+
+
+# ── 8. DROP TABLE ─────────────────────────────────────────────
+# Espera: [OK] Tabla 'cursos' eliminada.
+DROP TABLE cursos
+
+# Espera: solo 'estudiantes' en la lista
+SHOW TABLES
+
+# Espera: error — la tabla ya no existe
+SELECT cursos
+
+
+# ── 9. ERRORES DE SINTAXIS ────────────────────────────────────
+# Todos deben mostrar [ERROR] con mensaje claro, sin romper el REPL.
+
+# Espera: error — CREATE sin campos
+CREATE TABLE vacia id:int
+
+# Espera: error — tipo no valido
+CREATE TABLE mala id:float nombre:text
+
+# Espera: error — tabla no existe
+SELECT noexiste
+
+# Espera: error — DELETE sin WHERE
+DELETE estudiantes
+
+# Espera: error — UPDATE sin WHERE
+UPDATE estudiantes SET edad=20
+
+# Espera: ver ayuda completa
+COMANDOS

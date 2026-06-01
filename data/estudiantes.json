@@ -1,0 +1,1612 @@
+{
+  "esquema": {
+    "id": "int",
+    "nombre": "text",
+    "edad": "int",
+    "carrera": "text",
+    "promedio": "real",
+    "activo": "bool"
+  },
+  "registros": [
+    {
+      "id": 1,
+      "nombre": "Ana María Muñoz",
+      "edad": 21,
+      "carrera": "Derecho",
+      "promedio": 3.28,
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Lorena Pérez",
+      "edad": 24,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 3.06,
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Ana María Ortiz",
+      "edad": 26,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.44,
+      "activo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Ana María Castro",
+      "edad": 24,
+      "carrera": "Arquitectura",
+      "promedio": 3.56,
+      "activo": true
+    },
+    {
+      "id": 5,
+      "nombre": "María José Pérez",
+      "edad": 24,
+      "carrera": "Medicina",
+      "promedio": 3.72,
+      "activo": true
+    },
+    {
+      "id": 6,
+      "nombre": "Juan Esteban Orozco",
+      "edad": 26,
+      "carrera": "Medicina",
+      "promedio": 4.95,
+      "activo": true
+    },
+    {
+      "id": 7,
+      "nombre": "Fernanda Mendoza",
+      "edad": 21,
+      "carrera": "Economía",
+      "promedio": 3.14,
+      "activo": true
+    },
+    {
+      "id": 8,
+      "nombre": "Valentina Duque",
+      "edad": 19,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.56,
+      "activo": true
+    },
+    {
+      "id": 9,
+      "nombre": "Santiago Cruz",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.53,
+      "activo": false
+    },
+    {
+      "id": 10,
+      "nombre": "Viviana Castro",
+      "edad": 26,
+      "carrera": "Economía",
+      "promedio": 3.49,
+      "activo": true
+    },
+    {
+      "id": 11,
+      "nombre": "Kevin Duque",
+      "edad": 23,
+      "carrera": "Odontología",
+      "promedio": 4.54,
+      "activo": true
+    },
+    {
+      "id": 12,
+      "nombre": "Natalia Medina",
+      "edad": 22,
+      "carrera": "Medicina",
+      "promedio": 3.42,
+      "activo": false
+    },
+    {
+      "id": 13,
+      "nombre": "Natalia Cardona",
+      "edad": 25,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.77,
+      "activo": true
+    },
+    {
+      "id": 14,
+      "nombre": "Camilo Alberto Jiménez",
+      "edad": 26,
+      "carrera": "Biología",
+      "promedio": 3.53,
+      "activo": true
+    },
+    {
+      "id": 15,
+      "nombre": "Camila Mendoza",
+      "edad": 21,
+      "carrera": "Psicología",
+      "promedio": 4.02,
+      "activo": true
+    },
+    {
+      "id": 16,
+      "nombre": "Andrés Felipe Torres",
+      "edad": 20,
+      "carrera": "Enfermería",
+      "promedio": 4.36,
+      "activo": true
+    },
+    {
+      "id": 17,
+      "nombre": "Oscar Orozco",
+      "edad": 26,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.94,
+      "activo": false
+    },
+    {
+      "id": 18,
+      "nombre": "Fredy Rojas",
+      "edad": 26,
+      "carrera": "Enfermería",
+      "promedio": 3.53,
+      "activo": true
+    },
+    {
+      "id": 19,
+      "nombre": "Nicolás Castro",
+      "edad": 25,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 4.91,
+      "activo": false
+    },
+    {
+      "id": 20,
+      "nombre": "Samuel Morales",
+      "edad": 26,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 3.21,
+      "activo": true
+    },
+    {
+      "id": 21,
+      "nombre": "Johana Ortiz",
+      "edad": 20,
+      "carrera": "Arquitectura",
+      "promedio": 4.53,
+      "activo": true
+    },
+    {
+      "id": 22,
+      "nombre": "Johana Rodríguez",
+      "edad": 23,
+      "carrera": "Contaduría",
+      "promedio": 3.04,
+      "activo": false
+    },
+    {
+      "id": 23,
+      "nombre": "Andrea Jiménez",
+      "edad": 18,
+      "carrera": "Derecho",
+      "promedio": 4.76,
+      "activo": false
+    },
+    {
+      "id": 24,
+      "nombre": "Mateo Restrepo",
+      "edad": 26,
+      "carrera": "Enfermería",
+      "promedio": 3.25,
+      "activo": true
+    },
+    {
+      "id": 25,
+      "nombre": "Juliana Patricia Moreno",
+      "edad": 26,
+      "carrera": "Odontología",
+      "promedio": 4.21,
+      "activo": false
+    },
+    {
+      "id": 26,
+      "nombre": "Mónica Ortiz",
+      "edad": 22,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.99,
+      "activo": true
+    },
+    {
+      "id": 27,
+      "nombre": "Samuel Ríos",
+      "edad": 19,
+      "carrera": "Derecho",
+      "promedio": 3.45,
+      "activo": true
+    },
+    {
+      "id": 28,
+      "nombre": "Manuela Duque",
+      "edad": 18,
+      "carrera": "Medicina",
+      "promedio": 4.42,
+      "activo": true
+    },
+    {
+      "id": 29,
+      "nombre": "Juan Esteban Vargas",
+      "edad": 19,
+      "carrera": "Biología",
+      "promedio": 3.48,
+      "activo": true
+    },
+    {
+      "id": 30,
+      "nombre": "Camilo Alberto Arias",
+      "edad": 21,
+      "carrera": "Enfermería",
+      "promedio": 3.95,
+      "activo": true
+    },
+    {
+      "id": 31,
+      "nombre": "Brayan Castillo",
+      "edad": 23,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.82,
+      "activo": false
+    },
+    {
+      "id": 32,
+      "nombre": "Kevin Herrera",
+      "edad": 18,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.46,
+      "activo": false
+    },
+    {
+      "id": 33,
+      "nombre": "Sebastián Ortiz",
+      "edad": 26,
+      "carrera": "Contaduría",
+      "promedio": 3.28,
+      "activo": true
+    },
+    {
+      "id": 34,
+      "nombre": "Diego Alejandro Ríos",
+      "edad": 26,
+      "carrera": "Medicina",
+      "promedio": 3.1,
+      "activo": false
+    },
+    {
+      "id": 35,
+      "nombre": "Valentina Jiménez",
+      "edad": 20,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.97,
+      "activo": true
+    },
+    {
+      "id": 36,
+      "nombre": "Juan Esteban Castro",
+      "edad": 24,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 4.97,
+      "activo": true
+    },
+    {
+      "id": 37,
+      "nombre": "Katherine Álvarez",
+      "edad": 24,
+      "carrera": "Economía",
+      "promedio": 4.91,
+      "activo": false
+    },
+    {
+      "id": 38,
+      "nombre": "Rosa Cárdenas",
+      "edad": 20,
+      "carrera": "Derecho",
+      "promedio": 3.59,
+      "activo": false
+    },
+    {
+      "id": 39,
+      "nombre": "Lorena García",
+      "edad": 23,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 3.1,
+      "activo": true
+    },
+    {
+      "id": 40,
+      "nombre": "Johana Castro",
+      "edad": 18,
+      "carrera": "Biología",
+      "promedio": 3.16,
+      "activo": true
+    },
+    {
+      "id": 41,
+      "nombre": "Tatiana Jiménez",
+      "edad": 24,
+      "carrera": "Medicina",
+      "promedio": 4.88,
+      "activo": true
+    },
+    {
+      "id": 42,
+      "nombre": "Laura Sofía Pérez",
+      "edad": 24,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.17,
+      "activo": true
+    },
+    {
+      "id": 43,
+      "nombre": "Daniela Gutiérrez",
+      "edad": 21,
+      "carrera": "Administración de Empresas",
+      "promedio": 3.79,
+      "activo": true
+    },
+    {
+      "id": 44,
+      "nombre": "David Restrepo",
+      "edad": 18,
+      "carrera": "Contaduría",
+      "promedio": 4.24,
+      "activo": true
+    },
+    {
+      "id": 45,
+      "nombre": "Gabriel Cardona",
+      "edad": 26,
+      "carrera": "Administración de Empresas",
+      "promedio": 3.26,
+      "activo": true
+    },
+    {
+      "id": 46,
+      "nombre": "Miguel Ángel Mendoza",
+      "edad": 22,
+      "carrera": "Psicología",
+      "promedio": 3.88,
+      "activo": true
+    },
+    {
+      "id": 47,
+      "nombre": "Kevin Rodríguez",
+      "edad": 26,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.86,
+      "activo": true
+    },
+    {
+      "id": 48,
+      "nombre": "Carolina Rojas",
+      "edad": 19,
+      "carrera": "Economía",
+      "promedio": 4.11,
+      "activo": true
+    },
+    {
+      "id": 49,
+      "nombre": "Rosa Vargas",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.27,
+      "activo": true
+    },
+    {
+      "id": 50,
+      "nombre": "Juan Esteban Pérez",
+      "edad": 24,
+      "carrera": "Odontología",
+      "promedio": 3.55,
+      "activo": true
+    },
+    {
+      "id": 51,
+      "nombre": "Fernanda Moreno",
+      "edad": 20,
+      "carrera": "Economía",
+      "promedio": 3.88,
+      "activo": true
+    },
+    {
+      "id": 52,
+      "nombre": "María José Restrepo",
+      "edad": 20,
+      "carrera": "Biología",
+      "promedio": 3.07,
+      "activo": true
+    },
+    {
+      "id": 53,
+      "nombre": "Angie Gómez",
+      "edad": 18,
+      "carrera": "Administración de Empresas",
+      "promedio": 3.73,
+      "activo": false
+    },
+    {
+      "id": 54,
+      "nombre": "Laura Sofía Cruz",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.5,
+      "activo": true
+    },
+    {
+      "id": 55,
+      "nombre": "Angie Torres",
+      "edad": 21,
+      "carrera": "Odontología",
+      "promedio": 3.33,
+      "activo": true
+    },
+    {
+      "id": 56,
+      "nombre": "Nicolás López",
+      "edad": 20,
+      "carrera": "Economía",
+      "promedio": 4.85,
+      "activo": true
+    },
+    {
+      "id": 57,
+      "nombre": "Brayan Jiménez",
+      "edad": 22,
+      "carrera": "Psicología",
+      "promedio": 4.57,
+      "activo": true
+    },
+    {
+      "id": 58,
+      "nombre": "Diana Duque",
+      "edad": 21,
+      "carrera": "Odontología",
+      "promedio": 4.84,
+      "activo": true
+    },
+    {
+      "id": 59,
+      "nombre": "Manuela Duque",
+      "edad": 18,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.39,
+      "activo": true
+    },
+    {
+      "id": 60,
+      "nombre": "Mónica Muñoz",
+      "edad": 23,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.02,
+      "activo": true
+    },
+    {
+      "id": 61,
+      "nombre": "Natalia López",
+      "edad": 19,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 4.94,
+      "activo": true
+    },
+    {
+      "id": 62,
+      "nombre": "Carolina Martínez",
+      "edad": 19,
+      "carrera": "Comunicación Social",
+      "promedio": 3.87,
+      "activo": true
+    },
+    {
+      "id": 63,
+      "nombre": "Oscar Rojas",
+      "edad": 24,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 4.15,
+      "activo": true
+    },
+    {
+      "id": 64,
+      "nombre": "Ana María Ortiz",
+      "edad": 23,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.14,
+      "activo": true
+    },
+    {
+      "id": 65,
+      "nombre": "David Rojas",
+      "edad": 22,
+      "carrera": "Biología",
+      "promedio": 3.62,
+      "activo": true
+    },
+    {
+      "id": 66,
+      "nombre": "Daniel Gómez",
+      "edad": 21,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.33,
+      "activo": true
+    },
+    {
+      "id": 67,
+      "nombre": "Juliana Patricia Romero",
+      "edad": 24,
+      "carrera": "Biología",
+      "promedio": 4.67,
+      "activo": true
+    },
+    {
+      "id": 68,
+      "nombre": "Luis Fernando Gutiérrez",
+      "edad": 25,
+      "carrera": "Contaduría",
+      "promedio": 3.88,
+      "activo": true
+    },
+    {
+      "id": 69,
+      "nombre": "Fredy Castro",
+      "edad": 19,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.03,
+      "activo": true
+    },
+    {
+      "id": 70,
+      "nombre": "Edward Jiménez",
+      "edad": 22,
+      "carrera": "Derecho",
+      "promedio": 4.61,
+      "activo": true
+    },
+    {
+      "id": 71,
+      "nombre": "Mateo Restrepo",
+      "edad": 25,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.77,
+      "activo": true
+    },
+    {
+      "id": 72,
+      "nombre": "Camila Cárdenas",
+      "edad": 24,
+      "carrera": "Derecho",
+      "promedio": 3.3,
+      "activo": true
+    },
+    {
+      "id": 73,
+      "nombre": "Mónica Herrera",
+      "edad": 24,
+      "carrera": "Derecho",
+      "promedio": 3.35,
+      "activo": false
+    },
+    {
+      "id": 74,
+      "nombre": "Laura Sofía Jiménez",
+      "edad": 19,
+      "carrera": "Contaduría",
+      "promedio": 3.27,
+      "activo": true
+    },
+    {
+      "id": 75,
+      "nombre": "Lorena Gutiérrez",
+      "edad": 25,
+      "carrera": "Comunicación Social",
+      "promedio": 4.63,
+      "activo": false
+    },
+    {
+      "id": 76,
+      "nombre": "Gabriel Ríos",
+      "edad": 20,
+      "carrera": "Economía",
+      "promedio": 4.72,
+      "activo": true
+    },
+    {
+      "id": 77,
+      "nombre": "Fernanda Muñoz",
+      "edad": 26,
+      "carrera": "Contaduría",
+      "promedio": 4.25,
+      "activo": true
+    },
+    {
+      "id": 78,
+      "nombre": "Daniel Jiménez",
+      "edad": 22,
+      "carrera": "Arquitectura",
+      "promedio": 3.64,
+      "activo": true
+    },
+    {
+      "id": 79,
+      "nombre": "Miguel Ángel Silva",
+      "edad": 20,
+      "carrera": "Economía",
+      "promedio": 3.43,
+      "activo": true
+    },
+    {
+      "id": 80,
+      "nombre": "Julián Peña",
+      "edad": 18,
+      "carrera": "Derecho",
+      "promedio": 4.67,
+      "activo": true
+    },
+    {
+      "id": 81,
+      "nombre": "Rosa López",
+      "edad": 24,
+      "carrera": "Contaduría",
+      "promedio": 3.01,
+      "activo": true
+    },
+    {
+      "id": 82,
+      "nombre": "Angie Duque",
+      "edad": 25,
+      "carrera": "Derecho",
+      "promedio": 3.55,
+      "activo": true
+    },
+    {
+      "id": 83,
+      "nombre": "Brayan Medina",
+      "edad": 20,
+      "carrera": "Odontología",
+      "promedio": 3.93,
+      "activo": true
+    },
+    {
+      "id": 84,
+      "nombre": "Ana María Medina",
+      "edad": 18,
+      "carrera": "Medicina",
+      "promedio": 4.29,
+      "activo": true
+    },
+    {
+      "id": 85,
+      "nombre": "Juan Esteban Moreno",
+      "edad": 24,
+      "carrera": "Arquitectura",
+      "promedio": 3.42,
+      "activo": true
+    },
+    {
+      "id": 86,
+      "nombre": "Camila Muñoz",
+      "edad": 24,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.67,
+      "activo": true
+    },
+    {
+      "id": 87,
+      "nombre": "Laura Sofía Cruz",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.14,
+      "activo": false
+    },
+    {
+      "id": 88,
+      "nombre": "Carlos Andrés Jiménez",
+      "edad": 21,
+      "carrera": "Odontología",
+      "promedio": 3.04,
+      "activo": true
+    },
+    {
+      "id": 89,
+      "nombre": "Brayan Rojas",
+      "edad": 21,
+      "carrera": "Contaduría",
+      "promedio": 4.4,
+      "activo": true
+    },
+    {
+      "id": 90,
+      "nombre": "Oscar Rojas",
+      "edad": 20,
+      "carrera": "Administración de Empresas",
+      "promedio": 3.22,
+      "activo": true
+    },
+    {
+      "id": 91,
+      "nombre": "Brayan Silva",
+      "edad": 24,
+      "carrera": "Economía",
+      "promedio": 3.4,
+      "activo": true
+    },
+    {
+      "id": 92,
+      "nombre": "Manuela Herrera",
+      "edad": 22,
+      "carrera": "Odontología",
+      "promedio": 4.37,
+      "activo": false
+    },
+    {
+      "id": 93,
+      "nombre": "Marcela Martínez",
+      "edad": 23,
+      "carrera": "Biología",
+      "promedio": 3.86,
+      "activo": true
+    },
+    {
+      "id": 94,
+      "nombre": "Natalia Rodríguez",
+      "edad": 24,
+      "carrera": "Odontología",
+      "promedio": 3.98,
+      "activo": true
+    },
+    {
+      "id": 95,
+      "nombre": "Julián Torres",
+      "edad": 24,
+      "carrera": "Psicología",
+      "promedio": 4.47,
+      "activo": false
+    },
+    {
+      "id": 96,
+      "nombre": "Gabriel Arias",
+      "edad": 25,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.65,
+      "activo": true
+    },
+    {
+      "id": 97,
+      "nombre": "Miguel Ángel Pérez",
+      "edad": 22,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 3.9,
+      "activo": true
+    },
+    {
+      "id": 98,
+      "nombre": "Tatiana Silva",
+      "edad": 23,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 3.99,
+      "activo": true
+    },
+    {
+      "id": 99,
+      "nombre": "Santiago Moreno",
+      "edad": 23,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.76,
+      "activo": true
+    },
+    {
+      "id": 100,
+      "nombre": "Carlos Andrés Ortiz",
+      "edad": 19,
+      "carrera": "Derecho",
+      "promedio": 4.44,
+      "activo": true
+    },
+    {
+      "id": 101,
+      "nombre": "Rosa Arias",
+      "edad": 25,
+      "carrera": "Contaduría",
+      "promedio": 4.59,
+      "activo": true
+    },
+    {
+      "id": 102,
+      "nombre": "Jhon Jiménez",
+      "edad": 22,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.16,
+      "activo": true
+    },
+    {
+      "id": 103,
+      "nombre": "Angie Vargas",
+      "edad": 23,
+      "carrera": "Economía",
+      "promedio": 3.91,
+      "activo": true
+    },
+    {
+      "id": 104,
+      "nombre": "Fredy Ortiz",
+      "edad": 23,
+      "carrera": "Medicina",
+      "promedio": 4.49,
+      "activo": false
+    },
+    {
+      "id": 105,
+      "nombre": "Daniela Cardona",
+      "edad": 25,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.45,
+      "activo": false
+    },
+    {
+      "id": 106,
+      "nombre": "Andrea Herrera",
+      "edad": 21,
+      "carrera": "Administración de Empresas",
+      "promedio": 3.45,
+      "activo": true
+    },
+    {
+      "id": 107,
+      "nombre": "Gabriel Gómez",
+      "edad": 22,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 4.95,
+      "activo": true
+    },
+    {
+      "id": 108,
+      "nombre": "Sofía Alejandra Cárdenas",
+      "edad": 19,
+      "carrera": "Odontología",
+      "promedio": 3.02,
+      "activo": true
+    },
+    {
+      "id": 109,
+      "nombre": "David Morales",
+      "edad": 18,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.88,
+      "activo": true
+    },
+    {
+      "id": 110,
+      "nombre": "Camila Cárdenas",
+      "edad": 19,
+      "carrera": "Comunicación Social",
+      "promedio": 4.26,
+      "activo": true
+    },
+    {
+      "id": 111,
+      "nombre": "Luis Fernando Romero",
+      "edad": 19,
+      "carrera": "Derecho",
+      "promedio": 3.24,
+      "activo": true
+    },
+    {
+      "id": 112,
+      "nombre": "Viviana Duque",
+      "edad": 26,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.9,
+      "activo": true
+    },
+    {
+      "id": 113,
+      "nombre": "Angie Romero",
+      "edad": 18,
+      "carrera": "Comunicación Social",
+      "promedio": 4.92,
+      "activo": true
+    },
+    {
+      "id": 114,
+      "nombre": "Fernanda Cardona",
+      "edad": 22,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.16,
+      "activo": true
+    },
+    {
+      "id": 115,
+      "nombre": "Juliana Patricia Rodríguez",
+      "edad": 24,
+      "carrera": "Contaduría",
+      "promedio": 4.38,
+      "activo": true
+    },
+    {
+      "id": 116,
+      "nombre": "Daniel Álvarez",
+      "edad": 25,
+      "carrera": "Medicina",
+      "promedio": 4.37,
+      "activo": false
+    },
+    {
+      "id": 117,
+      "nombre": "Fernanda Ortiz",
+      "edad": 24,
+      "carrera": "Medicina",
+      "promedio": 4.09,
+      "activo": true
+    },
+    {
+      "id": 118,
+      "nombre": "Sofía Alejandra Restrepo",
+      "edad": 18,
+      "carrera": "Psicología",
+      "promedio": 4.59,
+      "activo": true
+    },
+    {
+      "id": 119,
+      "nombre": "Andrea Ríos",
+      "edad": 19,
+      "carrera": "Contaduría",
+      "promedio": 4.38,
+      "activo": true
+    },
+    {
+      "id": 120,
+      "nombre": "Johana Cárdenas",
+      "edad": 25,
+      "carrera": "Medicina",
+      "promedio": 4.2,
+      "activo": false
+    },
+    {
+      "id": 121,
+      "nombre": "Viviana Moreno",
+      "edad": 18,
+      "carrera": "Medicina",
+      "promedio": 3.46,
+      "activo": true
+    },
+    {
+      "id": 122,
+      "nombre": "Marcela López",
+      "edad": 22,
+      "carrera": "Comunicación Social",
+      "promedio": 3.08,
+      "activo": true
+    },
+    {
+      "id": 123,
+      "nombre": "Kevin Ríos",
+      "edad": 22,
+      "carrera": "Psicología",
+      "promedio": 4.99,
+      "activo": true
+    },
+    {
+      "id": 124,
+      "nombre": "Valentina Arias",
+      "edad": 23,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.67,
+      "activo": true
+    },
+    {
+      "id": 125,
+      "nombre": "Natalia Peña",
+      "edad": 25,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.33,
+      "activo": true
+    },
+    {
+      "id": 126,
+      "nombre": "Laura Sofía Orozco",
+      "edad": 19,
+      "carrera": "Arquitectura",
+      "promedio": 3.5,
+      "activo": true
+    },
+    {
+      "id": 127,
+      "nombre": "Johana Rodríguez",
+      "edad": 26,
+      "carrera": "Contaduría",
+      "promedio": 3.83,
+      "activo": true
+    },
+    {
+      "id": 128,
+      "nombre": "Edward Cárdenas",
+      "edad": 25,
+      "carrera": "Enfermería",
+      "promedio": 3.1,
+      "activo": true
+    },
+    {
+      "id": 129,
+      "nombre": "Daniel Ríos",
+      "edad": 25,
+      "carrera": "Medicina",
+      "promedio": 3.06,
+      "activo": true
+    },
+    {
+      "id": 130,
+      "nombre": "Rosa Castro",
+      "edad": 22,
+      "carrera": "Biología",
+      "promedio": 3.03,
+      "activo": true
+    },
+    {
+      "id": 131,
+      "nombre": "Andrés Felipe Orozco",
+      "edad": 19,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.66,
+      "activo": true
+    },
+    {
+      "id": 132,
+      "nombre": "Johana Muñoz",
+      "edad": 24,
+      "carrera": "Odontología",
+      "promedio": 3.96,
+      "activo": true
+    },
+    {
+      "id": 133,
+      "nombre": "Camilo Alberto Silva",
+      "edad": 21,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 4.2,
+      "activo": true
+    },
+    {
+      "id": 134,
+      "nombre": "Diego Alejandro Muñoz",
+      "edad": 24,
+      "carrera": "Arquitectura",
+      "promedio": 4.87,
+      "activo": true
+    },
+    {
+      "id": 135,
+      "nombre": "Andrea Romero",
+      "edad": 25,
+      "carrera": "Odontología",
+      "promedio": 3.3,
+      "activo": true
+    },
+    {
+      "id": 136,
+      "nombre": "Gabriel Silva",
+      "edad": 25,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 3.64,
+      "activo": true
+    },
+    {
+      "id": 137,
+      "nombre": "Marcela Silva",
+      "edad": 21,
+      "carrera": "Odontología",
+      "promedio": 4.55,
+      "activo": true
+    },
+    {
+      "id": 138,
+      "nombre": "Rosa Silva",
+      "edad": 24,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.58,
+      "activo": true
+    },
+    {
+      "id": 139,
+      "nombre": "Juan Esteban Gómez",
+      "edad": 26,
+      "carrera": "Comunicación Social",
+      "promedio": 3.66,
+      "activo": true
+    },
+    {
+      "id": 140,
+      "nombre": "María José Orozco",
+      "edad": 18,
+      "carrera": "Economía",
+      "promedio": 3.29,
+      "activo": false
+    },
+    {
+      "id": 141,
+      "nombre": "Valentina Arias",
+      "edad": 22,
+      "carrera": "Arquitectura",
+      "promedio": 4.25,
+      "activo": true
+    },
+    {
+      "id": 142,
+      "nombre": "David Silva",
+      "edad": 23,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.44,
+      "activo": true
+    },
+    {
+      "id": 143,
+      "nombre": "Laura Sofía Restrepo",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.37,
+      "activo": true
+    },
+    {
+      "id": 144,
+      "nombre": "Diego Alejandro Castillo",
+      "edad": 19,
+      "carrera": "Enfermería",
+      "promedio": 4.27,
+      "activo": false
+    },
+    {
+      "id": 145,
+      "nombre": "Jhon Romero",
+      "edad": 18,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 3.65,
+      "activo": true
+    },
+    {
+      "id": 146,
+      "nombre": "Nicolás Torres",
+      "edad": 21,
+      "carrera": "Biología",
+      "promedio": 3.82,
+      "activo": true
+    },
+    {
+      "id": 147,
+      "nombre": "Felipe Santiago Pérez",
+      "edad": 24,
+      "carrera": "Comunicación Social",
+      "promedio": 4.37,
+      "activo": true
+    },
+    {
+      "id": 148,
+      "nombre": "Manuela Orozco",
+      "edad": 22,
+      "carrera": "Contaduría",
+      "promedio": 3.51,
+      "activo": true
+    },
+    {
+      "id": 149,
+      "nombre": "Andrea Castro",
+      "edad": 19,
+      "carrera": "Contaduría",
+      "promedio": 4.89,
+      "activo": false
+    },
+    {
+      "id": 150,
+      "nombre": "Nicolás Moreno",
+      "edad": 25,
+      "carrera": "Odontología",
+      "promedio": 3.6,
+      "activo": false
+    },
+    {
+      "id": 151,
+      "nombre": "María José Jiménez",
+      "edad": 24,
+      "carrera": "Comunicación Social",
+      "promedio": 3.72,
+      "activo": true
+    },
+    {
+      "id": 152,
+      "nombre": "Ana María Medina",
+      "edad": 22,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 4.13,
+      "activo": true
+    },
+    {
+      "id": 153,
+      "nombre": "Laura Sofía Cárdenas",
+      "edad": 22,
+      "carrera": "Enfermería",
+      "promedio": 4.6,
+      "activo": true
+    },
+    {
+      "id": 154,
+      "nombre": "Kevin Ortiz",
+      "edad": 22,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.51,
+      "activo": true
+    },
+    {
+      "id": 155,
+      "nombre": "Sofía Alejandra Herrera",
+      "edad": 18,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.58,
+      "activo": true
+    },
+    {
+      "id": 156,
+      "nombre": "Camilo Alberto Pérez",
+      "edad": 22,
+      "carrera": "Arquitectura",
+      "promedio": 4.49,
+      "activo": true
+    },
+    {
+      "id": 157,
+      "nombre": "Gabriel Mendoza",
+      "edad": 26,
+      "carrera": "Biología",
+      "promedio": 4.83,
+      "activo": false
+    },
+    {
+      "id": 158,
+      "nombre": "Mateo Álvarez",
+      "edad": 23,
+      "carrera": "Enfermería",
+      "promedio": 3.23,
+      "activo": false
+    },
+    {
+      "id": 159,
+      "nombre": "Miguel Ángel Medina",
+      "edad": 26,
+      "carrera": "Arquitectura",
+      "promedio": 3.18,
+      "activo": true
+    },
+    {
+      "id": 160,
+      "nombre": "Andrés Felipe Orozco",
+      "edad": 23,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.5,
+      "activo": true
+    },
+    {
+      "id": 161,
+      "nombre": "Kevin Mendoza",
+      "edad": 19,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.47,
+      "activo": true
+    },
+    {
+      "id": 162,
+      "nombre": "Lorena Gutiérrez",
+      "edad": 21,
+      "carrera": "Ingeniería Civil",
+      "promedio": 3.13,
+      "activo": false
+    },
+    {
+      "id": 163,
+      "nombre": "Andrea Peña",
+      "edad": 19,
+      "carrera": "Psicología",
+      "promedio": 3.09,
+      "activo": true
+    },
+    {
+      "id": 164,
+      "nombre": "María José Herrera",
+      "edad": 21,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 4.08,
+      "activo": true
+    },
+    {
+      "id": 165,
+      "nombre": "Fredy Peña",
+      "edad": 20,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 3.83,
+      "activo": true
+    },
+    {
+      "id": 166,
+      "nombre": "Nicolás Muñoz",
+      "edad": 18,
+      "carrera": "Economía",
+      "promedio": 3.74,
+      "activo": true
+    },
+    {
+      "id": 167,
+      "nombre": "Paula Herrera",
+      "edad": 23,
+      "carrera": "Biología",
+      "promedio": 4.8,
+      "activo": true
+    },
+    {
+      "id": 168,
+      "nombre": "Jorge Leonardo Ortiz",
+      "edad": 19,
+      "carrera": "Odontología",
+      "promedio": 4.65,
+      "activo": true
+    },
+    {
+      "id": 169,
+      "nombre": "Kevin López",
+      "edad": 18,
+      "carrera": "Enfermería",
+      "promedio": 3.67,
+      "activo": false
+    },
+    {
+      "id": 170,
+      "nombre": "Daniela Restrepo",
+      "edad": 26,
+      "carrera": "Derecho",
+      "promedio": 4.17,
+      "activo": false
+    },
+    {
+      "id": 171,
+      "nombre": "Edward Torres",
+      "edad": 18,
+      "carrera": "Administración de Empresas",
+      "promedio": 4.72,
+      "activo": true
+    },
+    {
+      "id": 172,
+      "nombre": "Jorge Leonardo Morales",
+      "edad": 19,
+      "carrera": "Ingeniería Civil",
+      "promedio": 4.73,
+      "activo": true
+    },
+    {
+      "id": 173,
+      "nombre": "Miguel Ángel Gutiérrez",
+      "edad": 18,
+      "carrera": "Psicología",
+      "promedio": 3.53,
+      "activo": true
+    },
+    {
+      "id": 174,
+      "nombre": "Andrés Felipe Restrepo",
+      "edad": 25,
+      "carrera": "Contaduría",
+      "promedio": 4.56,
+      "activo": true
+    },
+    {
+      "id": 175,
+      "nombre": "Samuel Duque",
+      "edad": 18,
+      "carrera": "Economía",
+      "promedio": 4.57,
+      "activo": false
+    },
+    {
+      "id": 176,
+      "nombre": "Katherine López",
+      "edad": 18,
+      "carrera": "Contaduría",
+      "promedio": 4.69,
+      "activo": true
+    },
+    {
+      "id": 177,
+      "nombre": "Jhon Ríos",
+      "edad": 19,
+      "carrera": "Ingeniería Electrónica",
+      "promedio": 3.16,
+      "activo": true
+    },
+    {
+      "id": 178,
+      "nombre": "Jorge Leonardo Gutiérrez",
+      "edad": 24,
+      "carrera": "Comunicación Social",
+      "promedio": 4.06,
+      "activo": true
+    },
+    {
+      "id": 179,
+      "nombre": "María José Rojas",
+      "edad": 26,
+      "carrera": "Economía",
+      "promedio": 4.73,
+      "activo": true
+    },
+    {
+      "id": 180,
+      "nombre": "Angie Vargas",
+      "edad": 25,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.83,
+      "activo": true
+    },
+    {
+      "id": 181,
+      "nombre": "Brayan Moreno",
+      "edad": 23,
+      "carrera": "Psicología",
+      "promedio": 4.37,
+      "activo": true
+    },
+    {
+      "id": 182,
+      "nombre": "Diego Alejandro Pérez",
+      "edad": 24,
+      "carrera": "Medicina",
+      "promedio": 4.49,
+      "activo": true
+    },
+    {
+      "id": 183,
+      "nombre": "Juan Esteban Vargas",
+      "edad": 19,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 3.71,
+      "activo": true
+    },
+    {
+      "id": 184,
+      "nombre": "Claudia García",
+      "edad": 22,
+      "carrera": "Comunicación Social",
+      "promedio": 3.62,
+      "activo": true
+    },
+    {
+      "id": 185,
+      "nombre": "Sofía Alejandra Arias",
+      "edad": 21,
+      "carrera": "Odontología",
+      "promedio": 3.22,
+      "activo": false
+    },
+    {
+      "id": 186,
+      "nombre": "Edward Muñoz",
+      "edad": 21,
+      "carrera": "Enfermería",
+      "promedio": 3.86,
+      "activo": true
+    },
+    {
+      "id": 187,
+      "nombre": "Viviana López",
+      "edad": 22,
+      "carrera": "Ingeniería de Sistemas",
+      "promedio": 3.36,
+      "activo": true
+    },
+    {
+      "id": 188,
+      "nombre": "David Cruz",
+      "edad": 18,
+      "carrera": "Psicología",
+      "promedio": 4.74,
+      "activo": true
+    },
+    {
+      "id": 189,
+      "nombre": "Camilo Alberto López",
+      "edad": 19,
+      "carrera": "Economía",
+      "promedio": 4.06,
+      "activo": true
+    },
+    {
+      "id": 190,
+      "nombre": "Felipe Santiago Mendoza",
+      "edad": 22,
+      "carrera": "Economía",
+      "promedio": 3.65,
+      "activo": false
+    },
+    {
+      "id": 191,
+      "nombre": "Laura Sofía Torres",
+      "edad": 20,
+      "carrera": "Enfermería",
+      "promedio": 4.24,
+      "activo": true
+    },
+    {
+      "id": 192,
+      "nombre": "Brayan Castillo",
+      "edad": 25,
+      "carrera": "Comunicación Social",
+      "promedio": 3.88,
+      "activo": true
+    },
+    {
+      "id": 193,
+      "nombre": "María José Cruz",
+      "edad": 24,
+      "carrera": "Medicina",
+      "promedio": 3.57,
+      "activo": true
+    },
+    {
+      "id": 194,
+      "nombre": "Brayan Romero",
+      "edad": 18,
+      "carrera": "Derecho",
+      "promedio": 3.79,
+      "activo": true
+    },
+    {
+      "id": 195,
+      "nombre": "Daniel Cardona",
+      "edad": 20,
+      "carrera": "Enfermería",
+      "promedio": 3.51,
+      "activo": true
+    },
+    {
+      "id": 196,
+      "nombre": "Fredy Castillo",
+      "edad": 20,
+      "carrera": "Psicología",
+      "promedio": 3.76,
+      "activo": true
+    },
+    {
+      "id": 197,
+      "nombre": "Tatiana Cruz",
+      "edad": 19,
+      "carrera": "Ingeniería Industrial",
+      "promedio": 4.72,
+      "activo": true
+    },
+    {
+      "id": 198,
+      "nombre": "Diego Alejandro Gutiérrez",
+      "edad": 24,
+      "carrera": "Comunicación Social",
+      "promedio": 3.81,
+      "activo": true
+    },
+    {
+      "id": 199,
+      "nombre": "Esteban López",
+      "edad": 23,
+      "carrera": "Psicología",
+      "promedio": 4.6,
+      "activo": true
+    },
+    {
+      "id": 200,
+      "nombre": "Paula Pérez",
+      "edad": 24,
+      "carrera": "Odontología",
+      "promedio": 3.21,
+      "activo": true
+    }
+  ]
+}

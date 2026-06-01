@@ -1,0 +1,28 @@
+{
+  "tabla": "estudiantes",
+  "esquema": {
+    "id": "int",
+    "nombre": "text",
+    "edad": "int",
+    "carrera": "text",
+    "promedio": "real",
+    "activo": "bool"
+  },
+  "registros": [
+    {"id": 1, "nombre": "Ana María Rodríguez", "edad": 20, "carrera": "Ingeniería de Sistemas", "promedio": 4.5, "activo": true},
+    {"id": 2, "nombre": "Carlos Andrés López", "edad": 22, "carrera": "Medicina", "promedio": 4.8, "activo": true},
+    {"id": 3, "nombre": "Laura Sofía Martínez", "edad": 19, "carrera": "Psicología", "promedio": 4.2, "activo": true},
+    {"id": 4, "nombre": "Diego Alejandro García", "edad": 23, "carrera": "Derecho", "promedio": 3.8, "activo": true},
+    {"id": 5, "nombre": "Valentina Restrepo", "edad": 21, "carrera": "Administración de Empresas", "promedio": 4.1, "activo": true},
+    {"id": 6, "nombre": "Juan Esteban Pérez", "edad": 24, "carrera": "Arquitectura", "promedio": 3.5, "activo": false},
+    {"id": 7, "nombre": "María José Herrera", "edad": 18, "carrera": "Ingeniería Industrial", "promedio": 4.6, "activo": true},
+    {"id": 8, "nombre": "Andrés Felipe Rojas", "edad": 25, "carrera": "Contaduría", "promedio": 3.2, "activo": false},
+    {"id": 9, "nombre": "Sofía Alejandra Gómez", "edad": 20, "carrera": "Biología", "promedio": 4.0, "activo": true},
+    {"id": 10, "nombre": "Camilo Alberto Torres", "edad": 22, "carrera": "Comunicación Social", "promedio": 3.9, "activo": true},
+    {"id": 11, "nombre": "Juliana Patricia Castro", "edad": 19, "carrera": "Medicina", "promedio": 4.7, "activo": true},
+    {"id": 12, "nombre": "Felipe Santiago Morales", "edad": 26, "carrera": "Ingeniería de Sistemas", "promedio": 3.0, "activo": false},
+    {"id": 13, "nombre": "Daniela Ortiz", "edad": 21, "carrera": "Psicología", "promedio": 4.3, "activo": true},
+    {"id": 14, "nombre": "Sebastián Cardona", "edad": 23, "carrera": "Derecho", "promedio": 3.7, "activo": true},
+    {"id": 15, "nombre": "Manuela Duque", "edad": 20, "carrera": "Arquitectura", "promedio": 4.4, "activo": true}
+  ]
+}
